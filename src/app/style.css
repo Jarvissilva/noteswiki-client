@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.pdfWrapper {
+  overflow: auto; /* Enable custom scrollbars here */
+}
+
+.pdfEmbed {
+  display: block; /* Ensure the embed takes up the entire container */
+}
+
+/* Customize scrollbars */
+.pdfWrapper::-webkit-scrollbar {
+  width: 12px;
+}
+
+.pdfWrapper::-webkit-scrollbar-track {
+  background: red;
+}
+
+.pdfWrapper::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+.pdfWrapper::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
